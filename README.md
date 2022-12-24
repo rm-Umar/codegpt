@@ -5,7 +5,12 @@ You can download the binary for [linux_x64](https://github.com/rm-Umar/codegpt/r
 go build 
 ```
 # Usage
+Get your OpenAI API key from [here](https://beta.openai.com/account/api-keys)
+and set the env variable.
+```bash
+export OPENAI_TOKEN=<your_token>
 ```
+```bash
 codegpt <instruction>
 ```
 # Example
